@@ -11,10 +11,6 @@ import java.util.Comparator;
 
 public class HuffmanCompressor {
 
-	public static void main(String[] args) {
-		System.out.println(compressString("this is a sample input string. let's see how well it works.").length() + "");
-	}
-
 	public static String compressString(String s) {
 		List<HuffmanTree> nodes = generateNodes(s);
 		HuffmanTree huffmanTree = generateTree(nodes);
