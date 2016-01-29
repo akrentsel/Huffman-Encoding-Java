@@ -1,4 +1,4 @@
-# Huffman-Compression-Java
+# Huffman-Encoding-Java
 Simple implementation of Huffman compression in Java, storing 1s and 0s in a String instead of converting all the way to actual bits.
 
 # Explanation
