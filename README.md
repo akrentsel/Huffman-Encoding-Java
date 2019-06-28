@@ -30,12 +30,12 @@ the priority queue. This is repeated until there is only one tree left in the pr
 
 At this point, our tree looks something like this:
 
-      [ 10 ] 
-     /      \
-    /        \   
-   / \      / \ 
-  /\ /\    /\  l
- r d e W  o H  
+            [ 10 ] 
+           /      \
+          /        \   
+         / \      / \ 
+        /\ /\    /\  l
+       r d e W  o H  
 
  Now, to get our bit representation for each letter, we just navigate down the tree until we reach a letter,
  counting each left as a "0" and each right as a "1".
